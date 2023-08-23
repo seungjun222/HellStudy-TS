@@ -21,10 +21,11 @@ module.exports = {
         printWidth: 80,
         bracketSpacing: true,
         arrowParens: 'avoid',
+        endOfLine: "auto"
       },
     ],
-    '@typescript-eslint/no-explicit-any': 'off',
-    "@typescript-eslint/explicit-function-return-type": 'off',
+    // '@typescript-eslint/no-explicit-any': 'off',
+    // "@typescript-eslint/explicit-function-return-type": 'off', // Missing return type on function 에러 없애기
     'prefer-const': 'off',
   },
   parserOptions: {

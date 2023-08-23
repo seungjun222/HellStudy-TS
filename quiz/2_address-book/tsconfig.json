@@ -4,7 +4,8 @@
     "checkJs": true,
     "target": "es5",
     "lib": ["es2015", "dom", "dom.iterable"],
-    "noImplicitAny": false
+    "noImplicitAny": true, // index.ts 파일에 에러 표시
+    "strict": true, // 컴파일러 타입 검사 구체적으로 (ex. null, undefined 구분, this 바인딩 타입 검사 등)
   },
   "include": ["./src/**/*"]
 }
